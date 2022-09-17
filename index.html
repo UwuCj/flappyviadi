@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>მფრინავი ზვიადი</title>
+    <meta charset='utf-8'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel='stylesheet' href='./assets/css/main.css'>
+  </head>
+  <body>
+    <div id='cover'></div>
+    <div id='header'>
+      <ul class="nav navbar-nav">
+        <li>
+          <h1>მფრინავი ზვიადი</h1>
+        </li>
+      </ul>
+    </div>
+    <div id='flappy'>
+      <div class='right-column'>
+        <div id='canvas-container'>
+          <canvas id='canvas' width='500' height='600'>
+            No game...
+          </canvas>
+        </div>
+      </div>
+      <div class='left-column'>
+        <div id='scoreBoard-container'>
+          <h1>ლიდერბორდი</h1>
+          <div id='scoreBoard'>
+          </div>
+        </div>
+        <div id='btn-container'>
+          <div class='btn mute-toggle-container'>
+            <input id='mute-toggle-checkbox' type='checkbox'>
+            <label for='mute-toggle-checkbox'>ხმის გამორთვა</label>
+          </div>
+          <div class='btn restart'>
+            <label>თავიდანდაწყება</label>
+          </div>
+          <div class='difficulty-container'>
+            <div class='btn difficulty'>
+              <label>რთული</label>
+            </div>
+            <div class='btn difficulty'>
+              <label>საშუალო</label>
+            </div>
+            <div class='btn difficulty'>
+              <label>მარტივი</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id='footer'>
+      <ul class="nav navbar-nav footer">
+        <li>
+          <a id="Discord" href="https://discord.gg/mm2AeMgk">
+            <img class="profile-icon" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png" alt="LinkedIn">
+          </a>
+        </li>
+        <li>
+          
+          </a>
+        </li>
+      </ul>
+      <ul class="copyright">
+        <li>© enyo</li>
+      </ul>
+    </div>
+    <script type='application/javascript' src='./lib/bundle.js'></script>
+    <script type='application/javascript' src='./lib/keymaster.js'></script>
+  </body>
+</html>
