@@ -139,7 +139,7 @@ class PageManager{
 
   _displayScoreInto($ol){
     const $h3 = $(`
-      <h3>Welcome! Play the game to see your scores!</h3>
+      <h3>მოგესალმებით ითამაშეთ თამაში რომ ნახოთ თქვენი ქულა</h3>
       `);
     $ol.append($h3);
   }
